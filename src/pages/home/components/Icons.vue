@@ -86,10 +86,11 @@
 <style lang="stylus" scoped>
     @import '~styles/varibles.styl';
     @import '~styles/mixins.styl';
-    .icons
-        overflow hidden
+    .icons >>> .swiper-container
         height 0 
         padding-bottom 50%
+    .icons
+        margin-top .1rem
         .icon 
             position relative
             overflow hidden
