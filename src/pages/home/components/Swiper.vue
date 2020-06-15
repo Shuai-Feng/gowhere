@@ -39,10 +39,12 @@
     .wrapper >>> .swiper-pagination-bullet-active
         background:#fff
     .wrapper
+        overflow hidden
         width 100%
         height 0
         padding-bottom 31.25%
         background #eee
         .swiper-img
+            height 120px
             width:100%
 </style>
