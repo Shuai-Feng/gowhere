@@ -1,16 +1,22 @@
 <template>
     <div>
-        大哥喝可乐
-        <router-link to="/list">列表页</router-link>
+        <home-header></home-header>
+        <home-swiper></home-swiper>
     </div>
 </template>
 
 <script>
+    import HomeHeader from './components/Header';
+    import HomeSwiper from './components/Swiper';
     export default {
-        
+        name:'Home',
+        components:{
+            HomeHeader,
+            HomeSwiper
+        }
     }
 </script>
 
-<style lang="less" scoped>
-
+<style lang="stylus" scoped>
+  
 </style>
