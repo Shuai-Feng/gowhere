@@ -4,7 +4,7 @@
           热销推荐
       </div>
       <ul>
-          <li class="item border-bottom" v-for="(item,index) of recommendList" :key="index">
+          <li class="item border-bottom" v-for="(item,index) of list" :key="index">
               <div class="item-img-wrapper">
                   <img class="item-img" :src="item.imgUrl">
               </div> 
@@ -21,27 +21,8 @@
 <script>
 export default {
     name:"HomeRecommend",
-    data(){
-        return {
-            recommendList:[
-                {
-                id:'0001',
-                imgUrl:'https://img1.qunarzz.com/travel/d0/1807/8c/41d39769a11258b5.jpg_r_216x216x70_48c5d7b7.jpg',
-                title:'泸沽湖',
-                desc:"东方女儿国，高原上青山环绕的蔚蓝湖泊，景色瑰丽质朴。"
-                },{
-                id:'0002',
-                imgUrl:'https://img1.qunarzz.com/travel/d0/1807/8c/41d39769a11258b5.jpg_r_216x216x70_48c5d7b7.jpg',
-                title:'泸沽湖',
-                desc:"东方女儿国，高原上青山环绕的蔚蓝湖泊，景色瑰丽质朴。"
-                },{
-                id:'0003',
-                imgUrl:'https://img1.qunarzz.com/travel/d0/1807/8c/41d39769a11258b5.jpg_r_216x216x70_48c5d7b7.jpg',
-                title:'泸沽湖',
-                desc:"东方女儿国，高原上青山环绕的蔚蓝湖泊，景色瑰丽质朴。"
-                },
-            ]
-        }
+    props:{
+        list:Array
     }
 }
 </script>
