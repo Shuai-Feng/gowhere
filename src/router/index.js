@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/pages/home/Home'
-import List from '@/pages/list/List'
+import City from '@/pages/city/City';
 Vue.use(VueRouter)
 
   const routes = [
@@ -11,9 +11,9 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/list',
-    name: 'List',
-    component: List
+    path: '/city',
+    name: 'City',
+    component: City
   },
 ]
 
