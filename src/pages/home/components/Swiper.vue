@@ -50,7 +50,7 @@
         overflow hidden
         width 100%
         height 0
-        padding-bottom 31.25%
+        padding-bottom 29.25%
         background #eee
         .swiper-img
             height 120px
