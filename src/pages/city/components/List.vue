@@ -41,7 +41,6 @@
 <script>
     import BScroll from 'better-scroll';
     import { mapState, mapMutations } from 'vuex';
-    console.log(mapMutations(['changeCity']))
     export default {
         name:"CityList",
         props:{

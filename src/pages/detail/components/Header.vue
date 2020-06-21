@@ -1,12 +1,12 @@
 <template>
-  <div :style=style>
+  <div>
       <router-link
        tag="div" 
        to="/"  
        class="header-abs"
        v-show="showAbs"
        >
-           <div class="iconfont header-back">&#xe624;</div>
+        <div class="iconfont header-back">&#xe624;</div>
       </router-link>
 
       <div class="header-fixed"
@@ -29,16 +29,12 @@ export default {
             showAbs:true,
             opacityStyle:{
                 opacity:1
-            },
-            style:{
-                height:"1000px"
             }
         }
     },
     methods:{
         handleScroll(){
             const top = document.documentElement.scrollTop;
-            console.log(top)
             if(top>100){
                 let opacity = top/140
                 opacity = opacity >1 ?1:opacity
