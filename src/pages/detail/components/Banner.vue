@@ -6,7 +6,7 @@
           <div class="banner-number"><span class="iconfont banner-icon">&#xe64a;</span>39</div>
           <common-gallary 
           :imgs="imgs"  
-           v-show="showGallary"
+           v-if="another"
           @myclose="handleGallaryClose"
           ></common-gallary>
       </div>
@@ -19,6 +19,7 @@ export default {
     name:"DetailBanner",
     data(){
         return {
+            another:false,
             showGallary:false,
             imgs:[
                     "https://img1.qunarzz.com/vs_ceph_vs_tts/bbf53689-e13b-47b8-908a-e0a2b920c08e.jpg_r_1280x840x95_b52da99c.jpg",
@@ -28,12 +29,19 @@ export default {
     },
     methods:{
         handleBannerClick(){
-            this.showGallary = true
+            this.another = true
+  
         },
         handleGallaryClose(){
-            console.log(123)
-            console.log(this.showGallary)
-            this.showGallary = false
+            // 有趣了，直接关闭不行
+            //  this.another = false
+            
+            let timer = setTimeout(() => {
+                this.another = false
+                console.log('关了它')
+                clearTimeout(timer)
+                console.log(timer)
+            }, 10);
         }
     },
     components:{
