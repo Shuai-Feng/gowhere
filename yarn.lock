@@ -822,6 +822,109 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/core/-/core-2.2.1.tgz#3e35b1f6886c712cd9a6baf6aa0b31c754721414"
+  integrity sha512-5Uap8j9tdatTVGnWKLCqzp1yEzmRKxaciURYrgng7FkjkBst5hR8YyS+YbBocUT1pAjeGS6c5Az2vaSmvN3yug==
+  dependencies:
+    "@better-scroll/shared-utils" "^2.2.1"
+
+"@better-scroll/indicators@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/indicators/-/indicators-2.2.1.tgz#cad03021f952c4191d4953bf3c4fbd8dee7b3263"
+  integrity sha512-xiOa1Ksseg2Iurvh7Q/Zt6s97FGl9s4afd0uDFsja/LiXLTOGb/IBIIqMR/WxZSrfFUpYPwQLjqmJvYYnUqopA==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/infinity@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/infinity/-/infinity-2.2.1.tgz#d5aa9efdc37fe5bc388c62fe1d723826cf911d7c"
+  integrity sha512-z2TspGWE3MnN9p2r19mn5JP7I6sXZt6cwVGZtjW98T1dpJCq0gkLEfXBpD8KvLfNMuwTR8QP3TCPe9ERnDaT7Q==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/mouse-wheel@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/mouse-wheel/-/mouse-wheel-2.2.1.tgz#ae4ed3c75d26724da3aa6f0ecdb7b7fdfc5cdf2d"
+  integrity sha512-u+P4Jl9Gfz/Ke0TdDrAa8GMr4tJxnseNPJmnDv879EoW31K5iVt0gCcB7Jx4A+xb9U5HWxkR/JleLdlY5Hg+pA==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/movable@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/movable/-/movable-2.2.1.tgz#8bd55bf3e55275f3cea0b61a8d0ffbfab62d9a8d"
+  integrity sha512-UzQCROMbtsRhGSahdzvqUkKyyRr2ecHrtV5ZYNDRUb1q4iLjIF4Lxh3TYUBYAJYX/a5ysnZiypNmdcuPIu0E/g==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/nested-scroll@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/nested-scroll/-/nested-scroll-2.2.1.tgz#61f86d113dccff49a598199c07a564c765337285"
+  integrity sha512-U87kbxOcnX9dYJ+yZDKBP/MNz9fy1JR3gVvVUlmZJO90Hwih/WXPr54QBD475RPgeVL4BLOYQ95HlEKsObdOSA==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/observe-dom@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/observe-dom/-/observe-dom-2.2.1.tgz#8b206e01077ae4e84a806cfd298e9104fb1729c6"
+  integrity sha512-R2ZnvGJEVTNga907kr2KTgfuX7hyO1Coc3K8e2OXima6d1LU+2iuNEC2GwiUVlgR/XtwnhfTBvy7gGg9gChZ3w==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/observe-image@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/observe-image/-/observe-image-2.2.1.tgz#6ecbc12f370b1fcd9926b17d412edad2c8e0bb8e"
+  integrity sha512-AwkqSNO6Tw2FN5N/clD490wcRw1TliLd2CnOrOke8pC3CSzzNL67Nco/PBZ5GX/sIIB/nRZMTO8iHnktVxNdoA==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/pull-down@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-down/-/pull-down-2.2.1.tgz#4c6b63612b595e6e1b9ea98e178f952f98e667fe"
+  integrity sha512-gaTcIGgY3B9hwGymvZIk7YJra3uFgwLYn0JwnZzWvQfLklptjQ2MK2p2VliJV+B5vDf7xuOtfxEp7sdadskQoA==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/pull-up@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-up/-/pull-up-2.2.1.tgz#373027d2be81844dd7c5a1ab59f3dc43f6d7a08a"
+  integrity sha512-6oXR1NZJKsePBqyiA1bJShp2gTrorAOYP8gBzotWwyC8rPUaJW9Q86VBnciVqry1MPCTXeMWNsatAYUiCCYyGw==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/scroll-bar@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/scroll-bar/-/scroll-bar-2.2.1.tgz#f1f277b35dac4e1d5e40723a95aae92dc5047024"
+  integrity sha512-ryyAMKXuo3eQ9zrl1DRBNBR1iduCRxGhkBw56PYzG+Vk8D4rqHzVIFpwPVow0ZhNixGLvvSg6wzKGP+lDVc+wg==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/shared-utils@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/shared-utils/-/shared-utils-2.2.1.tgz#eb024feee1d37598a9b04fc18ca0d8b31f34f704"
+  integrity sha512-EDkIp/93CcdMYyVfdIqga1edErmolEQvi9xI0lmBxYl1dSBGZxVQgAmBunqw7zXODwJOAWcS7mhcIGu0H/oS5Q==
+
+"@better-scroll/slide@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/slide/-/slide-2.2.1.tgz#165d80d7b0673b715226ee87ee722755be1241ef"
+  integrity sha512-RoYytgKue38EJP0u3Lk8fnW9hbggNg2x8FDVGbvNzkTy4T0rMdfkls5DisnCFuZaC8O6t/mCM/FWZabVVkDG3A==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/wheel@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/wheel/-/wheel-2.2.1.tgz#d86732a5aeaf338a77f1790923c22936089db3b2"
+  integrity sha512-/b247FVHRfm0OWusdeIU0xeASOho7tHSiYf6HJtmdD1YuDGZJBzzrt90JMslqs7sr6oqOJ1VCsCOK7C3pOYJmQ==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
+"@better-scroll/zoom@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@better-scroll/zoom/-/zoom-2.2.1.tgz#2af518c17ed3e75c6a3155c70b673d33a75fc399"
+  integrity sha512-Sy5BY7W7/civJKFa2roINNhbM+Mz2Mefsd9vNKWIeQbe5FtpKd85RpjsmEPHvzZdT8SJhpAQRQoynui3gH4llQ==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.npm.taobao.org/@hapi/address/download/@hapi/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1610,6 +1713,13 @@ aws4@^1.8.0:
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.10.0.tgz#a17b3a8ea811060e74d47d306122400ad4497ae2"
   integrity sha1-oXs6jqgRBg501H0wYSJACtRJeuI=
 
+axios@^0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+  dependencies:
+    follow-redirects "1.5.10"
+
 babel-eslint@^10.1.0:
   version "10.1.0"
   resolved "https://registry.npm.taobao.org/babel-eslint/download/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
@@ -1674,6 +1784,26 @@ bcrypt-pbkdf@^1.0.0:
   integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
   dependencies:
     tweetnacl "^0.14.3"
+
+better-scroll@^2.0.0-beta.10:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/better-scroll/-/better-scroll-2.2.1.tgz#12a4226e48335eb6b749b1882cfa32036aecde89"
+  integrity sha512-yoQdvxJx8+02E1erR9sJvwnYAEGf2ullY5AQWmF9qRuJutQzpT+9nTsvX0lsgUr+xKnOeg8kCK29j6aqsYwj+A==
+  dependencies:
+    "@better-scroll/core" "^2.2.1"
+    "@better-scroll/indicators" "^2.2.1"
+    "@better-scroll/infinity" "^2.2.1"
+    "@better-scroll/mouse-wheel" "^2.2.1"
+    "@better-scroll/movable" "^2.2.1"
+    "@better-scroll/nested-scroll" "^2.2.1"
+    "@better-scroll/observe-dom" "^2.2.1"
+    "@better-scroll/observe-image" "^2.2.1"
+    "@better-scroll/pull-down" "^2.2.1"
+    "@better-scroll/pull-up" "^2.2.1"
+    "@better-scroll/scroll-bar" "^2.2.1"
+    "@better-scroll/slide" "^2.2.1"
+    "@better-scroll/wheel" "^2.2.1"
+    "@better-scroll/zoom" "^2.2.1"
 
 bfj@^6.1.1:
   version "6.1.2"
@@ -2589,6 +2719,13 @@ css-loader@^3.5.3:
     schema-utils "^2.7.0"
     semver "^6.3.0"
 
+css-parse@~2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/css-parse/-/css-parse-2.0.0.tgz#a468ee667c16d81ccf05c58c38d2a97c780dbfd4"
+  integrity sha1-pGjuZnwW2BzPBcWMONKpfHgNv9Q=
+  dependencies:
+    css "^2.0.0"
+
 css-select-base-adapter@^0.1.1:
   version "0.1.1"
   resolved "https://registry.npm.taobao.org/css-select-base-adapter/download/css-select-base-adapter-0.1.1.tgz#3b2ff4972cc362ab88561507a95408a1432135d7"
@@ -2639,6 +2776,16 @@ css-what@^3.2.1:
   version "3.3.0"
   resolved "https://registry.npm.taobao.org/css-what/download/css-what-3.3.0.tgz#10fec696a9ece2e591ac772d759aacabac38cd39"
   integrity sha1-EP7Glqns4uWRrHctdZqsq6w4zTk=
+
+css@^2.0.0:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/css/-/css-2.2.4.tgz#c646755c73971f2bba6a601e2cf2fd71b1298929"
+  integrity sha512-oUnjmWpy0niI3x/mPL8dVEI1l7MnG3+HHyRPHf+YFSbK+svOhXpmSOcDURUh2aOCgl2grzrOPt1nHLuCVFULLw==
+  dependencies:
+    inherits "^2.0.3"
+    source-map "^0.6.1"
+    source-map-resolve "^0.5.2"
+    urix "^0.1.0"
 
 cssesc@^3.0.0:
   version "3.0.0"
@@ -2741,6 +2888,13 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
   resolved "https://registry.npm.taobao.org/debug/download/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   integrity sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8=
+  dependencies:
+    ms "2.0.0"
+
+debug@=3.1.0, debug@~3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
   dependencies:
     ms "2.0.0"
 
@@ -2939,6 +3093,13 @@ dom-serializer@0:
   dependencies:
     domelementtype "^2.0.1"
     entities "^2.0.0"
+
+dom7@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/dom7/-/dom7-2.1.5.tgz#a79411017800b31d8400070cdaebbfc92c1f6377"
+  integrity sha512-xnhwVgyOh3eD++/XGtH+5qBwYTgCm0aW91GFgPJ3XG+jlsRLyJivnbP0QmUBFhI+Oaz9FV0s7cxgXHezwOEBYA==
+  dependencies:
+    ssr-window "^2.0.0"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -3499,6 +3660,11 @@ fast-levenshtein@~2.0.6:
   resolved "https://registry.npm.taobao.org/fast-levenshtein/download/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
 
+fastclick@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/fastclick/-/fastclick-1.0.6.tgz#161625b27b1a5806405936bda9a2c1926d06be6a"
+  integrity sha1-FhYlsnsaWAZAWTa9qaLBkm0Gvmo=
+
 faye-websocket@^0.10.0:
   version "0.10.0"
   resolved "https://registry.npm.taobao.org/faye-websocket/download/faye-websocket-0.10.0.tgz#4e492f8d04dfb6f89003507f6edbf2d501e7c6f4"
@@ -3658,6 +3824,13 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
+
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
+  dependencies:
+    debug "=3.1.0"
 
 follow-redirects@^1.0.0:
   version "1.11.0"
@@ -3825,10 +3998,10 @@ glob-to-regexp@^0.3.0:
   resolved "https://registry.npm.taobao.org/glob-to-regexp/download/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
   integrity sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs=
 
-glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
+glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
   version "7.1.6"
-  resolved "https://registry.npm.taobao.org/glob/download/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
-  integrity sha1-FB8zuBp8JJLhJVlDB0gMRmeSeKY=
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
+  integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -4932,6 +5105,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
+
 lodash.defaultsdeep@^4.6.1:
   version "4.6.1"
   resolved "https://registry.npm.taobao.org/lodash.defaultsdeep/download/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
@@ -5249,6 +5427,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@~0.5.1:
   integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
   dependencies:
     minimist "^1.2.5"
+
+mkdirp@~1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
+  integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -6833,10 +7016,10 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
+"safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@^2.1.2, safer-buffer@~2.1.0:
   version "2.1.2"
-  resolved "https://registry.npm.taobao.org/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
-  integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
+  resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
+  integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
 sax@~1.2.4:
   version "1.2.4"
@@ -7103,10 +7286,10 @@ source-list-map@^2.0.0:
   resolved "https://registry.npm.taobao.org/source-list-map/download/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha1-OZO9hzv8SEecyp6jpUeDXHwVSzQ=
 
-source-map-resolve@^0.5.0:
+source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
   version "0.5.3"
-  resolved "https://registry.npm.taobao.org/source-map-resolve/download/source-map-resolve-0.5.3.tgz?cache=0&sync_timestamp=1584829552965&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map-resolve%2Fdownload%2Fsource-map-resolve-0.5.3.tgz#190866bece7553e1f8f267a2ee82c606b5509a1a"
-  integrity sha1-GQhmvs51U+H48mei7oLGBrVQmho=
+  resolved "https://registry.yarnpkg.com/source-map-resolve/-/source-map-resolve-0.5.3.tgz#190866bece7553e1f8f267a2ee82c606b5509a1a"
+  integrity sha512-Htz+RnsXWk5+P2slx5Jh3Q66vhQj1Cllm0zvnaY98+NFx+Dv2CF/f5O/t8x+KaNdrdIAsruNzoh/KpialbqAnw==
   dependencies:
     atob "^2.1.2"
     decode-uri-component "^0.2.0"
@@ -7136,6 +7319,11 @@ source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
+
+source-map@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
+  integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
 spdx-correct@^3.0.0:
   version "3.1.1"
@@ -7212,6 +7400,11 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     safer-buffer "^2.0.2"
     tweetnacl "~0.14.0"
+
+ssr-window@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-2.0.0.tgz#98c301aef99523317f8d69618f0010791096efc4"
+  integrity sha512-NXzN+/HPObKAx191H3zKlYomE5WrVIkoCB5IaSdvKokxTpjBdWfr0RaP+1Z5KOfDT0ZVz+2tdtiBkhsEQ9p+0A==
 
 ssri@^6.0.1:
   version "6.0.1"
@@ -7406,6 +7599,29 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
+stylus-loader@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/stylus-loader/-/stylus-loader-3.0.2.tgz#27a706420b05a38e038e7cacb153578d450513c6"
+  integrity sha512-+VomPdZ6a0razP+zinir61yZgpw2NfljeSsdUF5kJuEzlo3khXhY19Fn6l8QQz1GRJGtMCo8nG5C04ePyV7SUA==
+  dependencies:
+    loader-utils "^1.0.2"
+    lodash.clonedeep "^4.5.0"
+    when "~3.6.x"
+
+stylus@^0.54.7:
+  version "0.54.8"
+  resolved "https://registry.yarnpkg.com/stylus/-/stylus-0.54.8.tgz#3da3e65966bc567a7b044bfe0eece653e099d147"
+  integrity sha512-vr54Or4BZ7pJafo2mpf0ZcwA74rpuYCZbxrHBsH8kbcXOwSfvBFwsRfpGO5OD5fhG5HDCFW737PKaawI7OqEAg==
+  dependencies:
+    css-parse "~2.0.0"
+    debug "~3.1.0"
+    glob "^7.1.6"
+    mkdirp "~1.0.4"
+    safer-buffer "^2.1.2"
+    sax "~1.2.4"
+    semver "^6.3.0"
+    source-map "^0.7.3"
+
 supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/supports-color/download/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
@@ -7455,6 +7671,14 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+swiper@^5.4.3:
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-5.4.5.tgz#a350f654bf68426dbb651793824925512d223c0f"
+  integrity sha512-7QjA0XpdOmiMoClfaZ2lYN6ICHcMm72LXiY+NF4fQLFidigameaofvpjEEiTQuw3xm5eksG5hzkaRsjQX57vtA==
+  dependencies:
+    dom7 "^2.1.5"
+    ssr-window "^2.0.0"
 
 table@^5.2.3:
   version "5.4.6"
@@ -7931,6 +8155,11 @@ vm-browserify@^1.0.1:
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
 
+vue-awesome-swiper@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/vue-awesome-swiper/-/vue-awesome-swiper-4.1.1.tgz#8f7ab221ad003021d756b86aa618f429924900fe"
+  integrity sha512-50um10t6N+lJaORkpwSi1wWuMmBI1sgFc9Znsi5oUykw2cO5DzLaBHcO2JNX21R+Ue4TGoIJDhhxjBHtkFrTEQ==
+
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
   resolved "https://registry.npm.taobao.org/vue-eslint-parser/download/vue-eslint-parser-7.1.0.tgz?cache=0&sync_timestamp=1589539313907&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-eslint-parser%2Fdownload%2Fvue-eslint-parser-7.1.0.tgz#9cdbcc823e656b087507a1911732b867ac101e83"
@@ -8177,6 +8406,11 @@ websocket-extensions@>=0.1.1:
   resolved "https://registry.npm.taobao.org/websocket-extensions/download/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
   integrity sha1-f4RzvIOd/YdgituV1+sHUhFXikI=
 
+when@~3.6.x:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/when/-/when-3.6.4.tgz#473b517ec159e2b85005497a13983f095412e34e"
+  integrity sha1-RztRfsFZ4rhQBUl6E5g/CVQS404=
+
 which-module@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/which-module/download/which-module-2.0.0.tgz#d9ef07dce77b9902b8a3a8fa4b31c3e3f7e6e87a"
@@ -8251,9 +8485,9 @@ xtend@^4.0.0, xtend@~4.0.1:
   integrity sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/y18n/download/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha1-le+U+F7MgdAHwmThkKEg8KPIVms=
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^2.1.2:
   version "2.1.2"
